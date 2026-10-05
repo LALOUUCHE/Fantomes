@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-creme: #f6f1e7;
+  --color-encre: #14213d;
+  --color-brule: #e4572e;
+  --font-titre: var(--font-fraunces), Georgia, serif;
+  --font-texte: var(--font-dmsans), system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-creme);
+  color: var(--color-encre);
+  font-family: var(--font-texte);
+  font-size: 18px;
+  line-height: 1.55;
+}
