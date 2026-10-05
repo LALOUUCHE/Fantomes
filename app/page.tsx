@@ -1,4 +1,5 @@
-const LIEN_PAIEMENT = "#"; // on remplacera par ton lien Stripe à l'étape suivante
+const LIEN_PAIEMENT = "const LIEN_PAIEMENT = "https://buy.stripe.com/test_14A3cx1va79m6ah4dP1gs00"; // on remplacera par ton lien Stripe à l'étape suivante
+"; // on remplacera par ton lien Stripe à l'étape suivante
 
 function Fantome({ className }: { className?: string }) {
   return (
